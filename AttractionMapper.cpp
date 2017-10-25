@@ -43,7 +43,6 @@ void AttractionMapperImpl::init(const MapLoader& ml)
         }   
     }
     //iterate through all segments from the MapLoader object
-    //use map for O(log N)
 }
 
 bool AttractionMapperImpl::getGeoCoord(string attraction, GeoCoord& gc) const
@@ -60,7 +59,6 @@ bool AttractionMapperImpl::getGeoCoord(string attraction, GeoCoord& gc) const
 //******************** AttractionMapper functions *****************************
 
 // These functions simply delegate to AttractionMapperImpl's functions.
-// You probably don't want to change any of this code.
 
 AttractionMapper::AttractionMapper()
 {
